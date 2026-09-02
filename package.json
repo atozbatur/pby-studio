@@ -1,0 +1,17 @@
+{
+  "name": "pby-studio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy"
+  },
+  "dependencies": {
+    "@sanity/vision": "^3.62.0",
+    "sanity": "^3.62.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
